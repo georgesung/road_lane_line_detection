@@ -27,4 +27,12 @@ Options:
   -I, --image_only      Annotate image (defaults to annotating video)
 ```
 
+For example, to detect lanes lines on the video 'challenge.mp4', run:
+
+```python lane_lines.py -i challenge.mp4 -o extra.mp4```
+
+To detect lane lines on a single image (e.g. for debugging), run:
+
+```python lane_lines.py -i input_image.jpg -o output_image.jpg -I```
+
 For detailed explanation of what the code does, and example images of intermediate steps, refer to P1.ipynb via ```jupyter notebook```
