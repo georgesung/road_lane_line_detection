@@ -6,7 +6,7 @@ This project detects lane lines using Python and OpenCV. A video of the end-resu
 https://www.youtube.com/watch?v=EZcHGsPX55Y
 
 ## Dependencies
-* Python 3
+* Python 3.5
 * NumPy
 * OpenCV
 * Matplotlib
